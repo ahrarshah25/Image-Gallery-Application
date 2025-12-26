@@ -1,12 +1,6 @@
 console.log("JS Connected!");
 
-
-const backend = "https://as-image-gallery.vercel.app/api/config";
-
-const response = await fetch(backend);
-const config = await response.json()
-
-const accessKey = config.apiKey;
+const accessKey = "5_L9ZuFXNGrb6LL42gYp06z4u8c2ByRy0XjJIqUwFKM";
 if(!accessKey){
     console.log("Access key nai arhi .env me se!");
 }
